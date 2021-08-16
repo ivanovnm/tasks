@@ -1,0 +1,785 @@
+body
+{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: #222!important;
+}
+
+h1,h2,h3,h4
+{
+	text-transform: uppercase;
+	margin: 0px;
+	padding: 0px;
+	color: #54b800;
+	font-weight: bold;
+	text-align: left;
+}
+
+h1 
+{
+	font-size: 2rem;
+}
+
+h2 
+{
+	font-size: 1.5rem;
+}
+
+h3 
+{
+	font-size: 1rem;
+}
+
+hr
+{
+	border:  1px solid #54b800!important;
+	color: #54b800!important;
+}
+
+padding
+{
+	margin: 0px!important;
+	padding: 0px!important;
+}
+
+a
+{
+	color: #54b800;
+}
+
+a:hover
+{
+	color: #54b800;
+	text-decoration: none;
+}
+
+.green
+{
+	color: #54b800;
+}
+
+.main
+{
+	margin-top: 50px;
+}
+
+
+.table
+{
+	text-align: left;
+}
+
+.margin-top-10>p
+{
+	position: relative!important;
+	float: left!important;
+	margin-bottom: 10px!important;
+	
+}
+
+.margin-top-10>p>h2
+{
+	position: relative!important;
+	float: left!important;
+	margin-bottom: 10px!important;
+	
+}
+
+.margin-top-10>h2
+{
+	position: relative!important;
+	float: left!important;
+	margin-bottom: 10px!important;
+	
+}
+
+.nav-link
+{
+	font-weight: bold!important;
+}
+
+.nav-link:hover, .dropdown-item:hover
+{
+	color: #54b800!important;
+}
+
+.header-tel
+{
+	margin-top: 15px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.header-zakazat
+{
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.ocenka_avto
+{
+	text-align: left;
+}
+
+.form-group
+{
+	text-align: left;
+	margin-top: 10px;
+}
+
+.ocenka_avto
+{
+	background: #fff url("../../.././images/header-fon-red.jpg") left top repeat;
+}
+
+.ocenka_avto h2
+{
+	margin-top: 10px;
+	color: red;
+}
+
+.advantages
+{
+	position: relative; 
+	float: left;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 50px;
+}
+
+.advantage
+{
+	position: relative; 
+	float: left;
+	width: 25%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.advantage div
+{
+	position: relative; 
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.advantage img
+{
+	width: 50%;
+}
+
+.shortabout
+{
+	font-size: 1.2rem;
+	text-align: left;
+}
+
+.vykup-avto
+{
+	border-radius: 3px;
+	border: 1px solid #54b800;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.preimuschestva-table
+{
+	position: relative;
+	float: left;
+	margin-top: 50px;	
+}
+
+.preimuschestva-table td
+{
+	text-align: left;
+	vertical-align: top;
+	font-size: 1.3rem!important;
+	
+}
+
+ul {list-style-type: square;}
+
+.ul1, .ul2
+{
+	list-style-type: square;
+	padding: 10px;
+	margin-left: 10px;
+	font-size: 1.2rem;
+}
+
+.news-preview
+{
+	text-align: left;
+}
+
+.news-description
+{
+	font-weight: bold;
+	margin-top: 15px;
+	text-align: left;
+	font-size: 1.2rem;
+}
+
+.news-small
+{
+	margin-top: 15px;
+	text-align: left;
+	font-size: 1.2rem;
+}
+
+.news-more
+{
+	margin-top: 15px;
+	text-align: right;
+	font-size: 1.2rem;
+}
+
+.dublicat div
+{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.dublicat div>img
+{
+	width: 50%;
+}
+
+.dublicat div>h3
+{
+	text-align: center;
+	margin-top: 15px;
+	color: #222
+}
+
+.dublicat div>p
+{
+	margin-top: 15px;
+	font-size: 1.2rem;
+}
+
+.how
+{
+	text-align: left;
+	font-size: 1.2rem;
+}
+
+
+.otzyv
+{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.otzyv div
+{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.otzyv img
+{
+	width: 100%;
+}
+
+.o_name
+{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.o_text
+{
+	font-size: 1.2rem;
+}
+
+.footer
+{
+	background: #fff url("../../../../images/header-fon.png") left top repeat;
+}
+
+
+.downcontent
+{
+	font-size: 1.3rem;
+	text-align: left;
+	margin-top: 50px;
+}
+
+.addreviews
+{
+	border-radius: 3px;
+	border: 1px solid silver;
+	margin-top: 10px;
+	padding: 5px;
+
+}
+
+.addadvert
+{
+	border-radius: 3px;
+	border: 1px solid red;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+.vykup_image>img
+{
+	width: 100%!important;
+	margin-top: 10px;
+}
+
+.vykup_image>a>img
+{
+	width: 100%!important;
+	margin-top: 10px;
+}
+
+.vykup_text
+{
+	text-align: left;
+	margin-top: 10px;
+}
+
+.vykup_block
+{
+	margin-top: 20px;
+}
+
+.makelist
+{
+	position: relative;
+	float: left;
+	text-align: center;
+	width: 22%;
+	padding: 1%;
+	min-height: 100px;
+}
+
+.makelist>a>img
+{
+	width: 90%;
+}
+
+.makelist>a>span
+{
+	width: 100%;
+	text-align: center;
+	font-size: 0.7rem!important;
+	font-weight: bold;
+	
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	body
+	{
+		min-width: 992px;
+	}
+	
+	p
+	{
+		margin-bottom: 0px!important;
+	}
+	
+	.submenu a
+	{
+		color: red!important;
+		font-weight: bold;
+	}
+	
+	.header1
+	{
+		position: relative;
+		float: left;
+		width: 18%;
+		padding: 2%;
+	}
+	
+	.header1>a>img
+	{
+		width: 100%;
+	}
+	
+	.header2
+	{
+		position: relative;
+		float: left;
+		width: 15%;
+		padding: 2%;
+	}
+	
+	.header2>a
+	{
+		position: relative;
+		float: left;
+		width: 100%;
+		text-align: center;
+		font-weight: bold;
+		color: gray;
+	}
+	
+	.header2>a:hover
+	{
+		color: #54b800;		
+	}
+	
+	.header2>a>img
+	{
+		width: 100%;
+	}
+	
+	.header2>a>img:hover
+	{
+		width: 100%;
+		-webkit-transform: rotate(180deg);
+		 -moz-transform:rotate(180deg);
+		 -o-transform:rotate(180deg);
+		 -ms-transform:rotate(180deg);
+		 transform:rotate(180deg);
+	}
+	
+	.pathway
+	{
+		display: block;
+		font-size: 14px;
+		color: gray;
+		text-align: left;
+		
+	}
+	
+	.pathway a
+	{
+		color: #54b800;
+	}
+	
+	.pathway_inner
+	{
+		position: relative;
+		float: left;
+		margin-left: 30px;
+	}
+	
+	.header-line
+	{
+		min-height: 400px;
+		padding-left: 50px;	
+		width: 100%;		
+		
+	}
+	
+	.header-line-2
+	{
+		min-height: 400px;
+		padding-left: 50px;	
+		width: 100%;		
+		
+	}
+	
+	.header-line h1
+	{
+		padding-top: 50px;
+	}
+	
+	.header-line-2 h1
+	{
+		padding-top: 50px;
+	}
+	
+	.header-line p
+	{
+		width: 60%;
+		font-size: 22px;
+		text-align: left;
+		margin-top: 50px;
+	}
+	
+	.header-line-2 p
+	{
+		width: 60%;
+		font-size: 22px;
+		text-align: left;
+		margin-top: 50px;
+	}
+	
+	.ocenka_avto
+	{
+		width: 23%;
+		position: relative;
+		float: right;
+		padding: 1%;
+	}
+
+	.header-block-1
+	{
+		display: block;
+	}
+	
+	.header-block-2
+	{
+		display: none;
+	}
+	
+	.desctop
+	{
+		display: block;
+	}
+	
+	.mobile
+	{
+		display: none;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+	
+	body
+	{
+		font-size: 3rem;
+	}
+	
+	.container
+	{
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		max-width: 100%!important;
+	}
+	
+	.row
+	{
+		width: 100%;
+		margin: 0% 0% 0% 0%;
+	}
+	
+	.header1
+	{
+		position: relative;
+		float: left;
+		width: 100%;
+	}
+	
+	.header1>a>img
+	{
+		width: 100%;
+	}
+	
+	.header2
+	{
+		position: relative;
+		float: left;
+		width: 20%;
+		margin: 10px 0px 10px 0px;
+	}
+	
+	.header2>a
+	{
+		position: relative;
+		float: left;
+		width: 100%;
+		text-align: center;
+		font-weight: bold;
+		font-size: 1rem;
+		color: gray;
+	}
+	
+	.header2>a:hover
+	{
+		color: #54b800;		
+	}
+	
+	.header2>a>img
+	{
+		width: 100%;
+	}
+	
+	.header-tel
+	{
+		font-size: 3rem;
+	}
+
+	.header-zakazat
+	{
+		font-size: 3rem;
+	}
+	
+	.pathway
+	{
+		display: none;
+	}
+	
+	h1 { font-size: 3rem; text-align: center;}
+	h2 { font-size: 2.5rem; text-align: center; }
+	h3 { font-size: 2rem; text-align: center; }
+	
+	.header-block-1
+	{
+		display: none;
+	}
+	
+	.header-block-2
+	{
+		display: block;
+	}
+	
+	.header-block-2 a
+	{
+		font-size: 3rem;
+		width: 100%;
+	}
+	
+	.preimuschestva-table td
+	{
+		text-align: left;
+		vertical-align: top;
+		font-size: 2rem!important;
+	}
+	
+	.dublicat div>h3
+	{
+		text-align: center;
+		margin-top: 15px;
+		color: #222;
+		font-size: 2rem;
+	}
+
+	.dublicat div>p
+	{
+		margin-top: 15px;
+		font-size: 1.8rem;
+	}
+	
+	.desctop
+	{
+		display: none!important;
+	}
+	
+	.mobile
+	{
+		display: block!important;
+	}
+	
+}
+
+@media (min-width: 0px) and (max-width: 319px) {
+	
+	body
+	{
+		font-size: 3rem;
+	}
+	
+	.container
+	{
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		max-width: 100%!important;
+	}
+	
+	.row
+	{
+		width: 100%;
+		margin: 0% 0% 0% 0%;
+	}
+	
+	.header1
+	{
+		position: relative;
+		float: left;
+		width: 100%;
+	}
+	
+	.header1>a>img
+	{
+		width: 100%;
+	}
+	
+	.header2
+	{
+		position: relative;
+		float: left;
+		width: 20%;
+	}
+	
+	.header2>a
+	{
+		position: relative;
+		float: left;
+		width: 100%;
+		text-align: center;
+		font-weight: bold;
+		color: gray;
+	}
+	
+	.header2>a:hover
+	{
+		color: #54b800;		
+	}
+	
+	.header2>a>img
+	{
+		width: 100%;
+	}
+	
+	.pathway
+	{
+		display: none;
+	}
+	
+	h1 { font-size: 3rem; text-align: center;}
+	h2 { font-size: 2.5rem; text-align: center; }
+	h3 { font-size: 2rem; text-align: center; }
+
+	.header-block-1
+	{
+		display: none;
+	}
+	
+	.header-block-2
+	{
+		display: block;
+	}
+	
+	.header-block-2 a
+	{
+		font-size: 3rem;
+		width: 100%;
+	}
+	
+	.preimuschestva-table td
+	{
+		text-align: left;
+		vertical-align: top;
+		font-size: 2rem!important;
+	}
+	
+	.dublicat div>h3
+	{
+		text-align: center;
+		margin-top: 15px;
+		color: #222;
+		font-size: 2rem;
+	}
+
+	.dublicat div>p
+	{
+		margin-top: 15px;
+		font-size: 1.8rem;
+	}
+	
+	.desctop
+	{
+		display: none!important;
+	}
+	
+	.mobile
+	{
+		display: block!important;
+	}
+}
+
+
