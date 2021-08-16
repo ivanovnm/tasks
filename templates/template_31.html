@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{block:description}">
+  <meta name="author" content="{block:author}">
+
+  <title>Портал для размещения закупок для УК и ТСЖ Пермского края</title>
+  <link rel="shortcut icon" href="../../../../favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700&subset=latin,cyrillic" rel="stylesheet">
+ 
+  <link href="../../../../css/this.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--   ШАПКА -->
+
+<div class="block bg_gray">
+	<div class="line">
+		<div class="header_line">
+			<div class="header_left">
+				<div class="header_element" style="margin-left: 0px!important"><a href="../../../../">Главная</a></div>
+				<div class="header_element"><a href="../../../../tarifs">Тарифы</a></div>
+				<div class="header_element"><a href="../../../../partners">Партнеры</a></div>
+				<div class="header_element"><a href="../../../../help">Помощь</a></div>
+			</div>
+			<div class="header_right">
+				{helper:userauth}
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="block">
+	<div class="line logotype" style="text-align: left!important">
+		<a href="../../../../" alt="ВКВАДРАТЕ.РФ - {block:title}" title="ВКВАДРАТЕ.РФ - {block:title}"><img src="../../../../images/logo.png" border="0"></a>
+	</div>
+</div>
+
+<!--div class="block">
+	<div class="line" style="text-align: left!important; height: 15px!important">
+		&#160;
+	</div>
+</div-->
+
+<!--div class="block">
+	<div class="line" style="text-align: left!important; height: 50px!important">
+		<form>
+			<select name="category" id="category">
+				<option value="1" selected>Категории</option>
+				<option value="2">Текущий ремонт</option>
+				<option value="3">Капитальный ремонт</option>
+				<option value="4">Обслуживание систем МКД</option>
+				<option value="5">Юридические услуги</option>
+				<option value="6">Благоустройство</option>
+				<option value="7">Вывоз ТКО</option>
+			</select>
+			<input type="edit" name="search" id="search" value="" placeholder="Ключевое слово для поиска" style="width: 477px;"/>
+			{helper:cities}
+			<input type="submit" value="Найти">
+		</form>
+	</div>
+</div>
+
+<div class="block">
+	<div class="line" style="text-align: left!important; height: 15px!important">
+		&#160;
+	</div>
+</div-->
+
+<div class="block bg_blue">
+	<div class="line bg_blue submenu" style="text-align: left!important; height: 50px!important">
+		<div style="margin-left: 20px!important;"><a href="../../../../../../search"><img src="../../../../images/search.png" border="0" width="15px"/>&#160;Найти аукцион</a></div>
+		<div>
+			<a onclick="showMenuSlider()" >Действия&#160;<img src="../../../../images/strelka.png"></a>
+			<div style="position: absolute; background-color: #8c69ff; padding: 20px; z-index:9999; width: 250px!important; text-align: left; left: -30px;; display: none;" id="menu-slider" name="menu-slider">
+				<a href="../../../../../../lk/">Подать заявку</a><br/><br/>
+				<a href="../../../../../../lk/">Зарегистрировать организацию</a>
+			</div>
+		</div>
+		<div><a href="../../../../companies">Реестр</a></div>
+		<div><a href="../../../../uchastnikam">Участникам</a></div>
+		<div>
+			<a onclick="showMenuSliderEx()" >Информация&#160;<img src="../../../../images/strelka.png"></a>
+			<div style="position: absolute; background-color: #8c69ff; padding: 20px; z-index:9999; width: 250px!important; text-align: left; left: -30px;; display: none;" id="menu-slider-ex" name="menu-slider-ex">
+				<a href="../../../../../../info/reglament">Регламент</a><br/><br/>
+				<a href="../../../../../../info/rekvizity">Реквизиты</a>
+			</div>
+		</div>
+	</div>
+</div>
+{helper:userauth=secondMenu}
+
+<div class="block">
+	<div class="line" style="text-align: left!important; height: 50px!important">
+		<h2 style="text-align: left!important">{block:headerText}</h2>
+	</div>
+</div>
+
+<div class="block">
+	<div class="line" style="text-align: left!important; height: 50px!important">
+		&#160;
+	</div>
+</div>
+
+<div class="block">
+	<div class="line" style='text-align: center!important'>
+		{block:content}
+	</div>
+</div>
+
+<div class="block">
+	<div class="line" style="text-align: left!important; height: 50px!important">
+		&#160;
+	</div>
+</div>
+
+<div class="block  bg_green">
+	<div class="line footer" >
+		<div style="width: 25%">
+			<p>Портал для размещения <br/>закупок для УК и ТСЖ</p>
+			<p><image src="../../../../images/logo.png"></p>
+		</div>
+		<div style="width: 25%">
+			<p>Телефоны:</p>
+			<p>+7 (991) 810-02-42<br/>+7 (991) 810-02-44<br/>+7 (342) 203-07-14</p>
+		</div>
+		<div style="width: 25%">
+			<p>Адрес:</p>
+			<p>614039, город Пермь,<br/>
+				ЖК "Гулливер", <br/>
+				Революции 54, офис 3
+			</p>
+		</div>
+		<div style="width: 25%">
+			<p>Связь mail:</p>
+			<p>sales@vkvadrate.store<br/>tech@vkvadrate.store<br/>project@vkvadrate.store<br/>support@vkvadrate.store</p>
+		</div>
+	</div>
+	<div class="line footer" >
+		<div style="width: 100%; height: 50px">
+			вКвадрате. Все права защищены (C) Perm, 2020
+		</div>
+	</div>
+</div>
+
+<script src="../../../../../vendor/jquery/lib28022020.js"></script>
+<script src="../../../../../js/this.js"></script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(59168041, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/59168041" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+</body>
+
+</html>
+
+
+
